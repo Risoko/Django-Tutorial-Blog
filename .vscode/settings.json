@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django", "--disable=C0114, C0115, C0116, C0326"],
+
+}

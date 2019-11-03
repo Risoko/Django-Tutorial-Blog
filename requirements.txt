@@ -1,0 +1,10 @@
+Django~=2.2.6
+pylint~=2.4.2
+flake8~=3.7.8
+psycopg2-binary~=2.8.3
+psycopg2~=2.8.3
+pycountry~=19.8.18
+python-decouple~=3.1
+pylint-django~=2.0.11
+django-taggit~=1.1.0
+
