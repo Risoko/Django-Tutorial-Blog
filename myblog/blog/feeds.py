@@ -1,5 +1,6 @@
-from django.contrib.syndication.views import Feed
 from django.template.defaultfilters import truncatewords
+from django.contrib.syndication.views import Feed
+
 from .models import Post
 
 
@@ -16,3 +17,6 @@ class LatestPostsFeed(Feed):
 
     def item_description(self, item):
         return truncatewords(item.body, 30)
+
+    def item_link(self, item):
+        return item.get_absolute_url()
